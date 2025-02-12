@@ -22,7 +22,7 @@ function Photo() {
           className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute"
         >
           <Image
-            src="/assets/photo.png"
+            src="/assets/profile-img.jpg"
             priority
             quality={100}
             fill
@@ -32,7 +32,7 @@ function Photo() {
         </motion.div>
         {/* circle */}
         <motion.svg
-          className="w-[300px] xl:w-[506px] h-[303px] xl:h-[506px]"
+          className="w-[306px] xl:w-[512px] h-[300px] xl:h-[505px]"
           fill="transparent"
           viewBox="8 0 506 506"
           xmlns="http://www.w3.org/2000/svg"
@@ -40,7 +40,7 @@ function Photo() {
           <motion.circle
             cy="253"
             cx="253"
-            r="250"
+            r="254"
             stroke="#00ff99"
             strokeWidth="4"
             strokeLinecap="round"
